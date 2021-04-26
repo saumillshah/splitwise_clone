@@ -5,7 +5,7 @@ import axios from "axios";
 export const userLogin = (Data) => dispatch => {
     axios.defaults.withCredentials = true;
     console.log(Data)
-    axios.post(`http://localhost:3002/auth/login`, Data)
+    axios.post(`http://3.226.254.12:3002/auth/login`, Data)
         .then(response =>{ dispatch({
             type: USER_LOGIN,
             payload: response.data
