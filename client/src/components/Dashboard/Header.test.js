@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Comment from "./components/group/comment";
+import Comment from "../group/comment";
 
 it("renders without crashing", () => {
   const div = document.createElement("div");

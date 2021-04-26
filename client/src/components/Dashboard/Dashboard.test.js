@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import DashboardNav from './components/Dashboard/DashboardNav';
+import DashboardNav from './DashboardNav';
 
 it('renders dashboard', () => {
   const div = document.createElement('div');
